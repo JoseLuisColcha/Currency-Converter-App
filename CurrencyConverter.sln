@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32630.192
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CurrencyConverter.Android", "CurrencyConverter.Android\CurrencyConverter.Android.csproj", "{25F614F6-6F38-4E4B-B704-0DA66BAB3CFE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CurrencyConverter", "CurrencyConverter\CurrencyConverter.csproj", "{1C19CD59-DD0C-4D15-AEA9-57057E9E3E99}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{25F614F6-6F38-4E4B-B704-0DA66BAB3CFE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{25F614F6-6F38-4E4B-B704-0DA66BAB3CFE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{25F614F6-6F38-4E4B-B704-0DA66BAB3CFE}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{25F614F6-6F38-4E4B-B704-0DA66BAB3CFE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{25F614F6-6F38-4E4B-B704-0DA66BAB3CFE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{25F614F6-6F38-4E4B-B704-0DA66BAB3CFE}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{1C19CD59-DD0C-4D15-AEA9-57057E9E3E99}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1C19CD59-DD0C-4D15-AEA9-57057E9E3E99}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1C19CD59-DD0C-4D15-AEA9-57057E9E3E99}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{1C19CD59-DD0C-4D15-AEA9-57057E9E3E99}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1C19CD59-DD0C-4D15-AEA9-57057E9E3E99}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1C19CD59-DD0C-4D15-AEA9-57057E9E3E99}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A17DD20A-B34C-4D97-8B86-6773E4C5CD7D}
+	EndGlobalSection
+EndGlobal

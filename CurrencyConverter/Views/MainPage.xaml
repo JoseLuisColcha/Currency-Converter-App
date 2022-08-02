@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="CurrencyConverter.MainPage">
+    <StackLayout Orientation="Vertical"
+                 BackgroundColor="#844795">
+        <Label Text="Convertidor de"
+               FontSize="35"
+               FontAttributes="Bold"
+               Margin="20,20,0,0"
+               HorizontalOptions="Center"
+               TextColor="White"
+               VerticalOptions="Center" />
+        <Label Text="divisas"
+               FontSize="35"
+               FontAttributes="Bold"
+               Margin="30,0,0,0"
+               HorizontalOptions="Center"
+               TextColor="White"
+               VerticalOptions="Center" />
+        <Frame VerticalOptions="FillAndExpand"
+               Margin="25,10,25,40"
+               CornerRadius="20"
+               HasShadow="False"
+               BackgroundColor="#F6C764">
+            <StackLayout VerticalOptions="Center"
+                         Spacing="15">
+                <Image Source="https://i.ibb.co/kHCr5Dq/Pngtree-dollar-bill-and-coin-illustration-7670802.png" />
+                <Button Text="Empezar"
+                        BackgroundColor="#844795" 
+                        CornerRadius="80"
+                        TextColor="White" />
+                <Label Text="Desarrollado por"
+                       HorizontalOptions="Center"
+                       TextColor="#363538"
+                       FontSize="15"
+                       Margin="30,20,30,0"
+                       FontAttributes="Italic" />
+                <Label Text="José Luis Colcha - Wendy Palomo"
+                       HorizontalOptions="Center"
+                       TextColor="#363538"
+                       FontSize="15"
+                       Margin="30,10,30,0"
+                       FontAttributes="Italic" />
+            </StackLayout>
+        </Frame>
+    </StackLayout>
+</ContentPage>
