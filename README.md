@@ -1,7 +1,7 @@
 # Aplicación móvil de Conversión de divisas desarrollada con Xamarin Forms
 La aplicación cuenta con 5 tipos de divisas que se pueden convertir entre sí.
 
-### Tipos de divisas
+## Tipos de divisas :dollar:
 - USD (Dólar estadounidense)
 - ARS(Peso argentino)
 - COP(Peso colombiano)
@@ -51,9 +51,4 @@ En esta sección se puede visualizar los resultados de dos conversiones junto al
 
 [![Captura-de-pantalla-2022-08-04-172212.png](https://i.postimg.cc/GtppJYLm/Captura-de-pantalla-2022-08-04-172212.png)](https://postimg.cc/gXfdGxLC)
 
-### 6. Ejecución de la aplicación en un dispositivo móvil
-
-En esta sección se puede visualizar la aplicación instalada y ejecutada en un dispositivo móvil.
-
-[![4.png](https://i.postimg.cc/jSMyt0n5/4.png)](https://postimg.cc/xXbX3ZRD)
 
