@@ -29,15 +29,18 @@ En esta sección se puede visualizar la página de conversión conformado por un
 ### 3. Lista de divisas
 
 En esta sección se puede visualizar los tipos de divisas que contiene la aplicación.
+
 [![Captura-de-pantalla-2022-08-04-171613.png](https://i.postimg.cc/wMnwcXXX/Captura-de-pantalla-2022-08-04-171613.png)](https://postimg.cc/zHSwqRPv)
 
 ### 4. Mensaje de error
 
 En esta sección se puede visualizar un mensaje de error al no ingresar todos los campos solicitados.
-[![Captura-de-pantalla-2022-08-04-164053.png](https://i.postimg.cc/g2s0xNq6/Captura-de-pantalla-2022-08-04-164053.png)](https://postimg.cc/DSWhDQN2)
+
+[![Captura-de-pantalla-2022-08-04-171103.png](https://i.postimg.cc/2689z8jZ/Captura-de-pantalla-2022-08-04-171103.png)](https://postimg.cc/Z92xHmdb)
 
 
 ### 5. Resultado
+
 En esta sección se puede visualizar los resultados de dos conversiones junto al tipo de divisas utilizado.
 
 - ARS(Peso Argentino) a EUR(EURO)
@@ -48,7 +51,9 @@ En esta sección se puede visualizar los resultados de dos conversiones junto al
 
 [![Captura-de-pantalla-2022-08-04-172212.png](https://i.postimg.cc/GtppJYLm/Captura-de-pantalla-2022-08-04-172212.png)](https://postimg.cc/gXfdGxLC)
 
-### 6.
+### 6. Ejecución de la aplicación en un dispositivo móvil
+
 En esta sección se puede visualizar la aplicación instalada y ejecutada en un dispositivo móvil.
+
 [![4.png](https://i.postimg.cc/jSMyt0n5/4.png)](https://postimg.cc/xXbX3ZRD)
 
