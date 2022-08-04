@@ -32,30 +32,32 @@ namespace CurrencyConverter.Views
 
             currencyPickerFrom.ItemsSource = currencyList;
             currencyPickerTo.ItemsSource = currencyList;
+
+            
         }
         private void Validate()
         {
-            if (!string.IsNullOrEmpty(txtValue.Text))
+            if (!string.IsNullOrEmpty(txtValue.Text) && !string.IsNullOrEmpty(currency1) && !string.IsNullOrEmpty(currency2))
             {
 
                 Calculate();
             }
             else
             {
-                DisplayAlert("Error", "Ingrese un valor!", "OK");
+                DisplayAlert("Mensaje de error", "Completa los campos solicitados!", "OK");
             }
         }
 
         private void currencyPickerFrom_SelectedIndexChanged(object sender, EventArgs e)
         {
-            value = Convert.ToDouble(txtValue.Text);
+           
 
             currency1 = Convert.ToString(currencyPickerFrom.SelectedItem);
 
         }
         private void currencyPickerTo_SelectedIndexChanged(object sender, EventArgs e)
         {
-            value = Convert.ToDouble(txtValue.Text);
+            
             currency2 = Convert.ToString(currencyPickerTo.SelectedItem);
         }
         private void btnConverter_Clicked(object sender, EventArgs e)
@@ -68,20 +70,20 @@ namespace CurrencyConverter.Views
 
             switch (currency1)
             {
-                case "USD (USD)":
+                case "USD(USD)":
                     switch (currency2)
                     {
                         case "ARS(Peso argentino)":
-                            conversion = value * 139.35;
+                            conversion = value * 132.64;
                             break;
                         case "COP(Peso colombiano)":
-                            conversion = value * 4292.55;
+                            conversion = value * 4301.33;
                             break;
                         case "EUR(Euro)":
                             conversion = value * 0.98;
                             break;
                         case "MXN(Peso mexicano)":
-                            conversion = value * 20.37;
+                            conversion = value * 20.34;
                             break;
                         default:
                             conversion = value;
@@ -92,11 +94,11 @@ namespace CurrencyConverter.Views
                 case "ARS(Peso argentino)":
                     switch (currency2)
                     {
-                        case "USD (USD)":
+                        case "USD(USD)":
                             conversion = value * 0.0075;
                             break;
                         case "COP(Peso colombiano)":
-                            conversion = value * 32.34;
+                            conversion = value * 32.43;
                             break;
                         case "EUR(Euro)":
                             conversion = value * 0.0074;
@@ -112,7 +114,7 @@ namespace CurrencyConverter.Views
                 case "COP(Peso colombiano)":
                     switch (currency2)
                     {
-                        case "USD (USD)":
+                        case "USD(USD)":
                             conversion = value * 0.00023;
                             break;
                         case "ARS(Peso argentino)":
@@ -132,17 +134,17 @@ namespace CurrencyConverter.Views
                 case "EUR(Euro)":
                     switch (currency2)
                     {
-                        case "USD (USD)":
+                        case "USD(USD)":
                             conversion = value * 1.02;
                             break;
                         case "ARS(Peso argentino)":
-                            conversion = value * 135.21;
+                            conversion = value * 135.89;
                             break;
                         case "COP(Peso colombiano)":
-                            conversion = value * 4373.19;
+                            conversion = value * 4407.06;
                             break;
                         case "MXN(Peso mexicano)":
-                            conversion = value * 20.74;
+                            conversion = value * 20.84;
                             break;
                         default:
                             conversion = value;
@@ -152,17 +154,17 @@ namespace CurrencyConverter.Views
                 case "MXN(Peso mexicano)":
                     switch (currency2)
                     {
-                        case "USD (USD)":
+                        case "USD(USD)":
                             conversion = value * 0.049;
                             break;
                         case "ARS(Peso argentino)":
                             conversion = value * 6.52;
                             break;
                         case "COP(Peso colombiano)":
-                            conversion = value * 210.67;
+                            conversion = value * 211.48;
                             break;
                         case "EUR(Euro)":
-                            conversion = value * 20.74;
+                            conversion = value * 0.048;
                             break;
                         default:
                             conversion = value;
@@ -172,14 +174,15 @@ namespace CurrencyConverter.Views
                     break;
 
             }
-
             lblValue.Text = Convert.ToString(value);
             lblCurrency1.Text = currency1;
             lblRes.Text= Convert.ToString(conversion);  
             lblCurrency2.Text = currency2;
-
-
         }
 
+        private async void TapGestureRecognizer_Tapped(object sender, EventArgs e)
+        {
+            await Navigation.PopAsync();
+        }
     }
 }

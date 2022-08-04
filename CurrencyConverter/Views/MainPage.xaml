@@ -26,22 +26,22 @@
             <Label Text="Desarrollado por"
                    HorizontalOptions="Center"
                    TextColor="#9F9E9A"
-                   FontSize="15"
+                   FontSize="18"
                    Margin="30,20,30,0"
                    FontAttributes="Italic" />
             <Label Text="José Luis Colcha"
                    HorizontalOptions="Center"
                    TextColor="#9F9E9A"
-                   FontSize="15"
-                   Margin="30,10,30,0"
+                   FontSize="18"
+                   Margin="30,2,30,0"
                    FontAttributes="Italic" />
             <Button Text="Empezar"
                     BackgroundColor="#C67C4E"
                     CornerRadius="80"
                     TextColor="White"
-                    Margin="30,20,30,0" 
+                    Margin="30,20,30,0"
                     x:Name="btnStart"
-                    Clicked="btnStart_Clicked"/>
+                    Clicked="btnStart_Clicked" />
         </StackLayout>
     </StackLayout>
 </ContentPage>
