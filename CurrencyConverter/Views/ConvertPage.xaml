@@ -17,47 +17,62 @@
                    TextColor="#C67C4E"
                    HorizontalOptions="Center"
                    FontFamily="{StaticResource Elianto}" />
-            <StackLayout Margin="40,40,40,0" Spacing="20">
-                
+            <StackLayout Margin="40,40,40,0"
+                         Spacing="20">
                 <Picker Title="De:"
+                        TitleColor="Red"
                         x:Name="currencyPickerFrom"
-                        BackgroundColor="White">
-                    <Picker.ItemsSource>
-                        <x:Array Type="{x:Type x:String}">
-                            <x:String>USD (USD)</x:String>
-                            <x:String>ARS (Peso argentino)</x:String>
-                            <x:String>COP (Peso colombiano)</x:String>
-                            <x:String>EUR (Euro)</x:String>
-                            <x:String>MXN (Peso mexicano)</x:String>
-                        </x:Array>
-                    </Picker.ItemsSource>
-                </Picker>
+                        BackgroundColor="White"
+                        SelectedIndexChanged="currencyPickerFrom_SelectedIndexChanged"></Picker>
                 <Entry Keyboard="Numeric"
                        Placeholder="Ingresa el valor a convertir"
                        PlaceholderColor="#B3B8C4"
-                       x:Name="unit" 
-                       BackgroundColor="White"/>
+                       x:Name="txtValue"
+                       BackgroundColor="White" />
                 <Picker Title="A:"
+                        TitleColor="Red"
                         x:Name="currencyPickerTo"
                         BackgroundColor="White"
-                        >
-                    <Picker.ItemsSource>
-                        <x:Array Type="{x:Type x:String}">
-                            <x:String>USD (USD)</x:String>
-                            <x:String>ARS (Peso argentino)</x:String>
-                            <x:String>COP (Peso colombiano)</x:String>
-                            <x:String>EUR (Euro)</x:String>
-                            <x:String>MXN (Peso mexicano)</x:String>
-                        </x:Array>
-                    </Picker.ItemsSource>
-                </Picker>
+                        SelectedIndexChanged="currencyPickerTo_SelectedIndexChanged"></Picker>
             </StackLayout>
             <Button Text="Convertir"
                     CornerRadius="60"
                     Margin="40,20,40,0"
                     BackgroundColor="#C67C4E"
-                    TextColor="White" 
-                    />
+                    TextColor="White"
+                    x:Name="btnConverter"
+                    Clicked="btnConverter_Clicked" />
+            <StackLayout Orientation="Vertical"
+                         HorizontalOptions="Center"
+                         Margin="0,35,0,0">
+                <Label TextColor="#D0946F"
+                       HorizontalOptions="Center"
+                       x:Name="lblCurrency1"
+                       FontAttributes="Italic"
+                       FontSize="Medium" />
+                <Label Text="0,00"
+                       TextColor="White"
+                       HorizontalOptions="Center"
+                       x:Name="lblValue"
+                       FontAttributes="Bold"
+                       FontSize="40" />
+                <Label TextColor="#C67C4E"
+                       HorizontalOptions="Center"
+                       Text="equivale a"
+                       FontAttributes="Bold"
+                       FontSize="28" />
+                <Label TextColor="#D0946F"
+                       HorizontalOptions="Center"
+                       FontAttributes="Italic"
+                       FontSize="Medium"
+                       x:Name="lblCurrency2" />
+                <Label TextColor="White"
+                       Text="0,00"
+                       HorizontalOptions="Center"
+                       FontAttributes="Bold"
+                       FontSize="40"
+                       x:Name="lblRes" />
+            </StackLayout>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>
