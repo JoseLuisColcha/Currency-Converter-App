@@ -10,7 +10,7 @@ La aplicación cuenta con 5 tipos de divisas que se pueden convertir entre sí.
 
 ## APK :iphone:
 
-La apk generada se encuentra en la carpeta [Apk](https://github.com/JoseLuisColcha/Curriculum-Vitae-Xamarin/tree/master/Apk) de este repositorio.
+La apk generada se encuentra en la carpeta [Apk](https://github.com/JoseLuisColcha/Currency-Converter-App/tree/master/Apk) de este repositorio.
 
 ## Funcionamiento 📌 
 
