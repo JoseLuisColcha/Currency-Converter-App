@@ -3,6 +3,27 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="CurrencyConverter.App">
     <Application.Resources>
-
+        <ResourceDictionary>
+            <OnPlatform x:Key="Alien"
+                        x:TypeArguments="x:String">
+                <On Platform="Android"
+                    Value="Ailerons-Typeface.otf#Ailerons-Typeface" />
+            </OnPlatform>
+            <OnPlatform x:Key="Elianto"
+                        x:TypeArguments="x:String">
+                <On Platform="Android"
+                    Value="Elianto-Regular.ttf#Elianto-Regular" />
+            </OnPlatform>
+            <OnPlatform x:Key="Quantum"
+                        x:TypeArguments="x:String">
+                <On Platform="Android"
+                    Value="Quantum.otf#HBM Razed Bold" />
+            </OnPlatform>
+            <OnPlatform x:Key="Morganite"
+                        x:TypeArguments="x:String">
+                <On Platform="Android"
+                    Value="Morganite-Medium.ttf#Morganite-Medium" />
+            </OnPlatform>
+        </ResourceDictionary>
     </Application.Resources>
 </Application>
