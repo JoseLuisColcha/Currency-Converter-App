@@ -20,5 +20,7 @@ namespace CurrencyConverter
         {
             await Navigation.PushAsync(new ConvertPage());
         }
+
+
     }
 }

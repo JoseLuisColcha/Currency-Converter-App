@@ -5,17 +5,16 @@
              BackgroundImage="https://i.ibb.co/SKTDZ0Q/backgroudn-Money2.jpg"
              NavigationPage.HasNavigationBar="False">
     <StackLayout Orientation="Vertical">
-        <Label Text="CONVERTIDOR DE"
-               FontSize="30"
+        <Label Text="CONVERTIDOR"
+               FontSize="35"
                FontAttributes="Bold"
-               Margin="10,490,0,0"
+               Margin="10,460,0,0"
                HorizontalOptions="Center"
                TextColor="White"
                VerticalOptions="End"
                FontFamily="{StaticResource Elianto}" />
-        
-        <Label Text="DIVISAS"
-               FontSize="30"
+        <Label Text="DE DIVISAS"
+               FontSize="35"
                FontAttributes="Bold"
                Margin="20,0,0,0"
                HorizontalOptions="Center"
