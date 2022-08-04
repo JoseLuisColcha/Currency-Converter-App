@@ -26,19 +26,27 @@ En esta sección se puede visualizar la página de conversión conformado por un
 
 [![Captura-de-pantalla-2022-08-04-163949.png](https://i.postimg.cc/5tm2FpBC/Captura-de-pantalla-2022-08-04-163949.png)](https://postimg.cc/qtzTPsZJ)
 
-### 3. 
-En esta sección se puede visualizar el tipo de divisas que contiene la aplicación.
-[![3.png](https://i.postimg.cc/VkqXT0mj/3.png)](https://postimg.cc/zyfLHBLB)
+### 3. Lista de divisas
 
-### 4. 
+En esta sección se puede visualizar los tipos de divisas que contiene la aplicación.
+[![Captura-de-pantalla-2022-08-04-171613.png](https://i.postimg.cc/wMnwcXXX/Captura-de-pantalla-2022-08-04-171613.png)](https://postimg.cc/zHSwqRPv)
+
+### 4. Mensaje de error
 
 En esta sección se puede visualizar un mensaje de error al no ingresar todos los campos solicitados.
-[![4.png](https://i.postimg.cc/jSMyt0n5/4.png)](https://postimg.cc/xXbX3ZRD)
+[![Captura-de-pantalla-2022-08-04-164053.png](https://i.postimg.cc/g2s0xNq6/Captura-de-pantalla-2022-08-04-164053.png)](https://postimg.cc/DSWhDQN2)
 
 
-### 5.
-En esta sección se puede visualizar el resultado de una conversión junto al tipo de divisa utilizado.
-[![4.png](https://i.postimg.cc/jSMyt0n5/4.png)](https://postimg.cc/xXbX3ZRD)
+### 5. Resultado
+En esta sección se puede visualizar los resultados de dos conversiones junto al tipo de divisas utilizado.
+
+- ARS(Peso Argentino) a EUR(EURO)
+
+[![Captura-de-pantalla-2022-08-04-164024.png](https://i.postimg.cc/598gZCSR/Captura-de-pantalla-2022-08-04-164024.png)](https://postimg.cc/mh279hqY)
+
+- USD(Dólar estadounidense) a MXN(Peso mexicano)
+
+[![Captura-de-pantalla-2022-08-04-172212.png](https://i.postimg.cc/GtppJYLm/Captura-de-pantalla-2022-08-04-172212.png)](https://postimg.cc/gXfdGxLC)
 
 ### 6.
 En esta sección se puede visualizar la aplicación instalada y ejecutada en un dispositivo móvil.
