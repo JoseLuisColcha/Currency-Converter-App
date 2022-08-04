@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="CurrencyConverter.Views.ConvertPage"
+             BackgroundColor="#110F0D"
+             NavigationPage.HasNavigationBar="False">
+    <ContentPage.Content>
+        <StackLayout Spacing="5">
+            <Label Text="CONVERTIDOR DE"
+                   FontSize="30"
+                   TextColor="White"
+                   HorizontalOptions="Center"
+                   Margin="0,60,0,0"
+                   FontFamily="{StaticResource Elianto}" />
+            <Label Text="DIVISAS"
+                   FontSize="30"
+                   TextColor="#C67C4E"
+                   HorizontalOptions="Center"
+                   FontFamily="{StaticResource Elianto}" />
+            <StackLayout Margin="40,40,40,0" Spacing="20">
+                
+                <Picker Title="De:"
+                        x:Name="currencyPickerFrom"
+                        BackgroundColor="White">
+                    <Picker.ItemsSource>
+                        <x:Array Type="{x:Type x:String}">
+                            <x:String>USD (USD)</x:String>
+                            <x:String>ARS (Peso argentino)</x:String>
+                            <x:String>COP (Peso colombiano)</x:String>
+                            <x:String>EUR (Euro)</x:String>
+                            <x:String>MXN (Peso mexicano)</x:String>
+                        </x:Array>
+                    </Picker.ItemsSource>
+                </Picker>
+                <Entry Keyboard="Numeric"
+                       Placeholder="Ingresa el valor a convertir"
+                       PlaceholderColor="#B3B8C4"
+                       x:Name="unit" 
+                       BackgroundColor="White"/>
+                <Picker Title="A:"
+                        x:Name="currencyPickerTo"
+                        BackgroundColor="White"
+                        >
+                    <Picker.ItemsSource>
+                        <x:Array Type="{x:Type x:String}">
+                            <x:String>USD (USD)</x:String>
+                            <x:String>ARS (Peso argentino)</x:String>
+                            <x:String>COP (Peso colombiano)</x:String>
+                            <x:String>EUR (Euro)</x:String>
+                            <x:String>MXN (Peso mexicano)</x:String>
+                        </x:Array>
+                    </Picker.ItemsSource>
+                </Picker>
+            </StackLayout>
+            <Button Text="Convertir"
+                    CornerRadius="60"
+                    Margin="40,20,40,0"
+                    BackgroundColor="#C67C4E"
+                    TextColor="White" 
+                    />
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
