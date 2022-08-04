@@ -1,5 +1,5 @@
 # Aplicación móvil de Conversión de divisas desarrollada con Xamarin Forms
-La aplicación cuenta con 5 tipos de divisas que se pueden convertir entre si.
+La aplicación cuenta con 5 tipos de divisas que se pueden convertir entre sí.
 
 ### Tipos de divisas
 - USD (Dólar estadounidense)
