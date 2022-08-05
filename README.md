@@ -51,5 +51,3 @@ En esta sección se puede visualizar los resultados de dos conversiones junto al
 
 [![Captura-de-pantalla-2022-08-04-172212.png](https://i.postimg.cc/GtppJYLm/Captura-de-pantalla-2022-08-04-172212.png)](https://postimg.cc/gXfdGxLC)
 
-### 6. Ejecución de la aplicación en un dispositivo móvil
-
