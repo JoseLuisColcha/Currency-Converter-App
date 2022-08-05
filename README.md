@@ -1,6 +1,10 @@
 # Aplicación móvil de Conversión de divisas desarrollada con Xamarin Forms
 La aplicación cuenta con 5 tipos de divisas que se pueden convertir entre sí.
 
+## Integrantes :frowning_man:
+- José Luis Colcha
+- Wendy Palomo
+
 ## Tipos de divisas :dollar:
 - USD (Dólar estadounidense)
 - ARS(Peso argentino)
