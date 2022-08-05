@@ -3,7 +3,7 @@ La aplicación cuenta con 5 tipos de divisas que se pueden convertir entre sí.
 
 ## Integrantes :frowning_man:
 - José Luis Colcha
-- 
+- Wendy Palomo
 
 ## Tipos de divisas :dollar:
 - USD (Dólar estadounidense)
@@ -55,4 +55,9 @@ En esta sección se puede visualizar los resultados de dos conversiones junto al
 - USD(Dólar estadounidense) a MXN(Peso mexicano)
 
 [![Captura-de-pantalla-2022-08-04-172212.png](https://i.postimg.cc/GtppJYLm/Captura-de-pantalla-2022-08-04-172212.png)](https://postimg.cc/gXfdGxLC)
+
+### 6. Ejecución de la aplicación en un dispositivo móvil.
+
+
+
 
