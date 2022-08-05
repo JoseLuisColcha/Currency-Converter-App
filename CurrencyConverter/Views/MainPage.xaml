@@ -29,7 +29,7 @@
                    FontSize="18"
                    Margin="30,20,30,0"
                    FontAttributes="Italic" />
-            <Label Text="José Luis Colcha"
+            <Label Text="José Luis Colcha - Wendy Palomo"
                    HorizontalOptions="Center"
                    TextColor="#9F9E9A"
                    FontSize="18"

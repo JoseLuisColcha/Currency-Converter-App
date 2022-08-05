@@ -16,14 +16,13 @@ namespace CurrencyConverter.Views
         string currency1;
         string currency2;
         double conversion;
-        string displayResult;
 
         public ConvertPage()
         {
             List<string> currencyList = new List<string>();
             InitializeComponent();
 
-            currencyList.Add("USD(USD)");
+            currencyList.Add("USD(Dolar estadounidense)");
             currencyList.Add("ARS(Peso argentino)");
             currencyList.Add("COP(Peso colombiano)");
             currencyList.Add("EUR(Euro)");
@@ -70,7 +69,7 @@ namespace CurrencyConverter.Views
 
             switch (currency1)
             {
-                case "USD(USD)":
+                case "USD(Dolar estadounidense)":
                     switch (currency2)
                     {
                         case "ARS(Peso argentino)":
@@ -94,7 +93,7 @@ namespace CurrencyConverter.Views
                 case "ARS(Peso argentino)":
                     switch (currency2)
                     {
-                        case "USD(USD)":
+                        case "USD(Dolar estadounidense)":
                             conversion = value * 0.0075;
                             break;
                         case "COP(Peso colombiano)":
@@ -114,7 +113,7 @@ namespace CurrencyConverter.Views
                 case "COP(Peso colombiano)":
                     switch (currency2)
                     {
-                        case "USD(USD)":
+                        case "USD(Dolar estadounidense)":
                             conversion = value * 0.00023;
                             break;
                         case "ARS(Peso argentino)":
@@ -134,7 +133,7 @@ namespace CurrencyConverter.Views
                 case "EUR(Euro)":
                     switch (currency2)
                     {
-                        case "USD(USD)":
+                        case "USD(Dolar estadounidense)":
                             conversion = value * 1.02;
                             break;
                         case "ARS(Peso argentino)":
@@ -154,7 +153,7 @@ namespace CurrencyConverter.Views
                 case "MXN(Peso mexicano)":
                     switch (currency2)
                     {
-                        case "USD(USD)":
+                        case "USD(Dolar estadounidense)":
                             conversion = value * 0.049;
                             break;
                         case "ARS(Peso argentino)":
