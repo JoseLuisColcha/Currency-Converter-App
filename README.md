@@ -3,7 +3,7 @@ La aplicación cuenta con 5 tipos de divisas que se pueden convertir entre sí.
 
 ## Integrantes :frowning_man:
 - José Luis Colcha
-- Wendy Palomo
+- 
 
 ## Tipos de divisas :dollar:
 - USD (Dólar estadounidense)
