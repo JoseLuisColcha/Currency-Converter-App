@@ -58,7 +58,7 @@ En esta sección se puede visualizar los resultados de dos conversiones junto al
 
 ### 6. Ejecución de la aplicación en un dispositivo móvil.
 
-A continuacion se instalo la aplicacion en un dispositivo Samsung,para ver su correcto funcionamiento:
+A continuación se instaló la aplicación en un dispositivo Samsung, para ver su correcto funcionamiento:
 
 - Página principal.
 
