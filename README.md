@@ -60,20 +60,20 @@ En esta sección se puede visualizar los resultados de dos conversiones junto al
 
 A continuacion se instalo la aplicacion en un dispositivo Samsung,para ver su correcto funcionamiento:
 
-- Página principal
--
+- Página principal.
+
 ![image](https://user-images.githubusercontent.com/58180852/182993899-7238064d-f157-46ee-8425-efeddc440c9d.png)
 
-- Página de conversión
-- 
+- Página de conversión.
+
 ![image](https://user-images.githubusercontent.com/58180852/182994092-597823bb-e8ef-4826-a693-1521cb8c2f69.png)
 
-- Lista de divisas
-- 
+- Lista de divisas.
+
 ![image](https://user-images.githubusercontent.com/58180852/182994262-7844b69d-ddee-4478-bed9-1633a5159aa4.png)
 
-- Resultado: Dolares (USD) a Pesos Colombianos (COP)
-- 
+- Resultado: Dolares (USD) a Pesos Colombianos (COP).
+
 ![image](https://user-images.githubusercontent.com/58180852/182994368-58375aa2-53fe-4fe3-bdd4-d4079cb3c63e.png)
 
 
