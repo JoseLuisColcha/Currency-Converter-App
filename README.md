@@ -22,7 +22,8 @@ La apk generada se encuentra en la carpeta [Apk](https://github.com/JoseLuisColc
 
 En esta sección se puede visualizar la página principal implementada con un botón para iniciar la aplicación.
 
-[![Captura-de-pantalla-2022-08-04-163902.png](https://i.postimg.cc/FsncYFr4/Captura-de-pantalla-2022-08-04-163902.png)](https://postimg.cc/QH1VP3K4)
+[![Captura-de-pantalla-2022-08-04-190954.png](https://i.postimg.cc/BZhRMv2y/Captura-de-pantalla-2022-08-04-190954.png)](https://postimg.cc/CdqvKSPH)
+
 
 ### 2. Página de conversión
  
